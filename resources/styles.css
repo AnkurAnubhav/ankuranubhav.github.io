@@ -1,31 +1,73 @@
-.header{
-    background-color: CornflowerBlue;
-    text-align: center;
+header{
+    background-color: green;
+    width: 100%;
+    height: 100px;
   }
   
+  body {
+    background-color: black;
+    text-align: center;
+    }
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.home{
+    width:30%;
+    float:left;
+    text-align: left;
+    line-height: 100px;
+}
+
+.home a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 4px;
+}
+
   h1{
     font-weight: bold;
     font-style: italic;
     font-family: serif;
+    color: white;
   }
   
   h2{
     font-style: italic;
+    color:white;
   }
   
   p{
     font-weight: bold;
+    color: lightgreen
   }
-  
-  nav li {
-    display: inline;
-    padding-right: 2rem;
+
+  nav {
+    float:right;
+    line-height: 70px;
+  }
+
+  nav a{
+      text-decoration: none;
+      letter-spacing: 3px;
+      font-size: 20px;
+      color: white;
+      padding: 36px 10px;
+      margin: 0 1px;
+  }
+
+  nav a:hover{
+      background: white;
+      color: blue; 
   }
   
   .cssClass {
-    max-width: 940px;
+    max-width: 740px;
     margin: 0 auto;
-    height: 800px;
+    height: 500px;
     background-color: blue;
   }
   
@@ -44,18 +86,18 @@
   }
   
   .htmlClass {
-    max-width: 940px;
+    max-width: 740px;
     margin: 0 auto;
-    height: 800px;
+    height: 650px;
     background-color: red;
   }
   
   .left{
     font-family: helvetica;
-    color: white;
+    color: lightgreen;
   }
   
   .right{
     font-family: helvetica;
-    color: white;
+    color: lightgreen;
   }
