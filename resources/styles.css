@@ -1,103 +1,144 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px; 
+    color: seashell;
+    background-color: black;  
+    opacity: 0.8;
+    text-align: center; 
+    margin: auto 0;   
+}
+
 header{
-    background-color: green;
+    border-bottom: 1px solid seashell;
     width: 100%;
-    height: 100px;
-  }
-  
-  body {
+    height: 69px;
+    display: flex;
     background-color: black;
-    text-align: center;
-    }
-
-.wrapper{
-    width: 90%;
-    margin: 0 auto;
+    position: fixed;
 }
 
-.home{
-    width:30%;
-    float:left;
-    text-align: left;
-    line-height: 100px;
+.logo img{
+    height: 50px;
+    margin-left: 10px;
+    padding-top: 10px;
+    display: inline-flex;
+    justify-content: flex-start;
 }
 
-.home a{
-    text-decoration: none;
-    font-size: 30px;
-    color: white;
-    letter-spacing: 4px;
+
+nav{
+    
+    background-color: black; 
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    text-decoration: underline; 
+    display: inline-flex;
+    justify-content: flex-end;
+    flex-grow: 2;
 }
 
-  h1{
-    font-weight: bold;
-    font-style: italic;
-    font-family: serif;
-    color: white;
-  }
-  
-  h2{
-    font-style: italic;
-    color:white;
-  }
-  
-  p{
-    font-weight: bold;
-    color: lightgreen
-  }
+ul{
+    display: flex;
+    height: 69px;
+    padding-right: 10px; 
+}
 
-  nav {
-    float:right;
-    line-height: 70px;
-  }
+ul li{
+    display: inline-flex;
+    text-decoration: underline;
+    height: 69px;
+    padding-right: 20px;
+    justify-content: space-around;
+}
 
-  nav a{
-      text-decoration: none;
-      letter-spacing: 3px;
-      font-size: 20px;
-      color: white;
-      padding: 36px 10px;
-      margin: 0 1px;
-  }
+.mission{
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1bxfxre*_ga*MjAyNzMwNjk3MS4xNjg3ODYyNzYy*_ga_3LRZM6TM9L*MTY5NzE2OTU1NC42My4xLjE2OTcxNjk1NTguNTYuMC4w');
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+}
 
-  nav a:hover{
-      background: white;
-      color: blue; 
-  }
-  
-  .cssClass {
-    max-width: 740px;
-    margin: 0 auto;
-    height: 500px;
-    background-color: blue;
-  }
-  
-  th {
-    border: 2px solid #8c6b48;
-  }
-  
-  table {
-    text-align: center;
-    margin: 20px auto;
-  }
-  
-  td {
-    border: 2px solid #8c6b48;
+.banner{
+    background-color: black;
+    position: relative;
+    top: 300px;
+    padding: 5px;
+}
+
+h2, h4{
+    color: seashell;
+    font-family: helvetica;
+}
+
+.teas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.teas img{
     width: 300px;
-  }
-  
-  .htmlClass {
-    max-width: 740px;
-    margin: 0 auto;
-    height: 650px;
-    background-color: red;
-  }
-  
-  .left{
-    font-family: helvetica;
-    color: lightgreen;
-  }
-  
-  .right{
-    font-family: helvetica;
-    color: lightgreen;
-  }
+    height: 200px;
+}
+
+figcaption{
+    line-height: 10px;
+}
+
+.locations{
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1s88okb*_ga*MjAyNzMwNjk3MS4xNjg3ODYyNzYy*_ga_3LRZM6TM9L*MTY5NzMyODcwNy42OS4xLjE2OTczMjk0NjEuMjcuMC4w');
+    margin: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+    height: 600px;
+
+}
+
+.location-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: transparent;
+    width: 1200px;
+}
+
+#special{
+    background-color: transparent;
+    margin: 20px auto;
+    padding-bottom: 15px;
+}
+
+.address{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 300;
+    margin: 15px 20px;
+    padding: 15px 40px;
+    background-color: black;
+    opacity: 1;
+}
+
+.address p
+.address h3{
+    margin: 10px auto;
+}
+
+footer div {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#copyright {
+    text-align: left;
+    padding: 20px;
+}
